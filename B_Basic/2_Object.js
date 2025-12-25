@@ -82,3 +82,30 @@ console.log(Object.values(tinderUser)); // ----> Gives array of all the values s
 console.log(Object.values(tinderUser)); // ----> Gives array of individual datatype + value together
 
 tinderUser.hasOwnProperty('isLoggedIn') // ----> True --> If it exists or False --> If do not exist in the object
+
+// ************************************** Object De-Structure and APIs *************************************
+
+const course = {
+    coursename: "Js in hindi",
+    price: "999",
+    courseInstructor: "Hitesh",
+}
+
+const {courseInstructor} = course // ----> De-Structuring of Object (Also : const {courseInstructor: Teacher} = course)
+console.log(courseInstructor); // ----> Hitesh {Also : (console.log(Teacher)}
+
+/* JSON 
+
+{
+    "name" = "hitesh",
+    "coursename": "JS in Hindi",
+    "price" = "free"
+}
+*/
+
+// API 
+[
+    {},
+    {},
+    {}
+]
