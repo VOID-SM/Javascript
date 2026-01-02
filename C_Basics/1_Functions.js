@@ -36,7 +36,7 @@ console.log(loginUserMessage("")); // ----> just Logged In
 console.log(loginUserMessage()); // ----> undefined just Logged In
 
 function loginUserMessage(username = "Saggy"){ // ----> We can give default value
-    if(!username){                                 // ----> If-Else statement
+    if(!username){                             // ----> If-Else statement
         console.log("Please Give a Username");
         return
     }

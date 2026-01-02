@@ -9,9 +9,9 @@ console.log(3
 console.log("Hitesh")
 
 
-let name = "hitesh"
-let age = 18
-let isLoggedIn = false
+let name = "hitesh"    // ----> String
+let age = 18           // ----> Number
+let isLoggedIn = false // ----> Boolean
 let state;
 
 // number => 2 to power 53
@@ -25,5 +25,5 @@ let state;
 
 // object
 
-console.log(typeof undefined); // undefined
-console.log(typeof null); // object
+console.log(typeof undefined); // ----> undefined
+console.log(typeof null); // ----> object

@@ -27,5 +27,5 @@ console.log("1" + 2 + 2) // ----> 122
 console.log(1 + 2 + "2") // ----> 32
 
 let val = 100
-console.log(val++);
-console.log(val);
+console.log(val++); // ----> 100
+console.log(val);   // ----> 101
