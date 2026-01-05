@@ -19,3 +19,21 @@ console.log(map);  // ----> Output the map as an Object
 for(const [key, value] of map){ // ----> [key, value] --> Allows the map to destructurize
     console.log(key, ':-', value); // ----> Output(form) : IN :- India 
 }
+
+
+// const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// const newNums = myNums.filter((num) => num > 4)
+// console.log(newNums); // ----> [5, 6, 7, 8, 9, 10]
+
+const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+const newNums = myNums.filter((num) => {
+    // num > 4  ----> This is wrong 
+    return num > 4 // ----> This is correct
+})
+console.log(newNums); // ----> [5, 6, 7, 8, 9, 10]
+
+// For-Each Loop:
+const newNum = []
+myNums.forEach((num) => {
+    if(num > 4) newNum.push(num)
+})
